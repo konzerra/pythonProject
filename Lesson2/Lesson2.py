@@ -27,7 +27,8 @@ def les2ex4():
 
 def les2ex5():
     s = input('Enter string: ')
-    print(s.split(' ').__len__())
+    m = input('Enter character: ')
+    print(s.split(m).__len__())
 
 
 
