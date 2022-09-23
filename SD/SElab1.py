@@ -1,9 +1,9 @@
 # Defining Function
 import cmath
 
-#здесь твоя функция
+
 def f(x):
-    return 2.2 * x - pow(2, x)
+    return x-0.21*cmath.sin(0.5+x) #2.2 * x - pow(2, x)
 #
 
 
@@ -41,3 +41,5 @@ def SElab1():
     N = int(input('Maximum Step: '))
 
     secant(x0, x1, e, N)
+
+
