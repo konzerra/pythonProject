@@ -56,3 +56,10 @@ def les3ex3():
     x = input('enter string: ')
     for i in x.split(' '):
         print(i + ' - ' + i.__len__().__str__())
+
+def les3ex4(*x):
+    x[0] ** 1
+    print ("First: ", x[0])
+    for n in range(1, len(x)):
+        temp = x[n] ** x[n - 1]
+        print ("Other: ", temp)

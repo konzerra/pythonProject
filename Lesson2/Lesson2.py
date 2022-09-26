@@ -13,7 +13,7 @@ def les2ex3():
     m = input('Enter character: ')
     minstr = min(s.split(' '), key=len)
     index = s.index(minstr)
-    print(s[:index]+m+s[index:])
+    print(s[:index] + m + s[index:])
 
 
 def les2ex4():
@@ -25,10 +25,9 @@ def les2ex4():
         print('Not found!')
 
 
+
+
 def les2ex5():
     s = input('Enter string: ')
     m = input('Enter character: ')
     print(s.split(m).__len__())
-
-
-
